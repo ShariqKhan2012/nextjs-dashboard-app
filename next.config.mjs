@@ -2,7 +2,11 @@
 
 const nextConfig = {
   experimental: {
-    ppr: 'incremental',
+    /**
+     * ppr is causing vercel build to fail, so
+     * commenting it for now 
+     */
+    //ppr: 'incremental',
   }
 };
 
